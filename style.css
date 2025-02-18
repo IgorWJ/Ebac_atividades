@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    margin: 80px auto;
+    max-width: 640px;
+    width: 100%;
+}
+
+form{
+    margin-top: 15px;
+}
+
+input, button{
+    display: block;
+    padding: 8px;
+    margin: 15px 0;
+}
+
+button{
+    background-color: rgb(93, 186, 89);
+    border: none;
+    color: aliceblue;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(77, 150, 75);
+}
+
+#message{
+    background-color: rgb(92, 92, 92);
+    color: aliceblue;
+    padding: 8px;
+    
+}
